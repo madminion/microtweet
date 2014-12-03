@@ -1,0 +1,7 @@
+db.user.insert({"handle":"Jerome","password":"gege","followers":[{"handle":"Younes"},{"handle":"BillGates"}],"followings":[{"handle":"Shakira"},{"handle":"betezed"}]})
+db.user.insert({"handle":"Younes","password":"youyou","followers":[{"handle":"Jerome"}],"followings":[{"handle":"Shakira"},{"handle":"betezed"}]})
+db.user.insert({"handle":"betezed","password":"romain","followers":[{"handle":"Jerome"},{"handle":"Younes"}],"followings":[{"handle":"BillGates"},{"handle":"SteveJobs"}]})
+db.user.insert({"handle":"Shakira","password":"shashou","followers":[],"followings":[{"handle":"BillGates"},{"handle":"SteveJobs"}]})
+db.user.insert({"handle":"BillGates","password":"bibill","followers":[{"handle":"betezed"},{"handle":"Shakira"}],"followings":[{"handle":"Shakira"},{"handle":"SteveJobs"}]})
+db.user.insert({"handle":"SteveJobs","password":"steevee92wesh","followers":[{"handle":"Jerome"},{"handle":"Younes"}],"followings":[{"handle":"BillGates"},{"handle":"SteveJobs"}]})
+db.user.insert({"handle":"Selim","password":"neverlate","followers":[{"handle":"Jerome"},{"handle":"Younes"}],"followings":[{"handle":"BillGates"},{"handle":"SteveJobs"}]})
